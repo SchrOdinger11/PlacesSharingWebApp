@@ -20,7 +20,7 @@ function UserList(props){
                     id={user.id} 
                     image={user.image} 
                     name={user.name} 
-                    placesCount={user.places} // Ensure the prop name matches your data
+                    places={user.places} // Ensure the prop name matches your data
                 />
             ))}
             
